@@ -1,5 +1,5 @@
 /*
-Theme Name: Responsive TwentyTen
+Theme Name: Responsive TwentyTen Wormeyman
 Theme URI: http://wordpress.org/
 Description: Responsive child theme for TwentyTen.
 Author: Todd Halfpenny
@@ -9,7 +9,7 @@ Tags: black, blue, white, two-columns, fluid, responsive, custom-header, custom-
 */
 
 @import url("../twentyten/style.css");
-  
+
 #wrapper,
 #access,
 #access .menu-header,
@@ -32,8 +32,10 @@ div.menu,
 .entry-content img.size-full {
   border: 1px solid #333;
   padding: 5px;
+/*
   -moz-box-shadow: 2px 2px 10px #333;
   -webkit-box-shadow: 2px 2px 10px #333;
+*/
 }
 
 iframe, object, embed{
@@ -41,8 +43,8 @@ iframe, object, embed{
 }
 
 .wp-caption {
-	max-width: 100% !important; /* When images are too wide for containing element, force them to fit. */
-	height: auto; /* Override height to match resized width for correct aspect ratio. */
+    max-width: 100% !important; /* When images are too wide for containing element, force them to fit. */
+    height: auto; /* Override height to match resized width for correct aspect ratio. */
 }
 
 .wp-caption img {
@@ -54,7 +56,7 @@ iframe, object, embed{
     margin: 20px auto;
     width: 94%;
   }
-  
+
   #access,
   #access .menu-header,
   div.menu,
@@ -65,23 +67,23 @@ iframe, object, embed{
     margin: 0 auto;
     width: 100%;
   }
-  
+
   #branding  {
     overflow:hidden;
   }
-  
+
   /* added extra lines from the next release of twentyten */
 #content img {
   max-width: 100%;
   }
-  
+
   /*
   LAYOUT: Two columns
   DESCRIPTION: Responsive.
   940 = 720 + 220
-  100% = 76.5957447% + 23.40425535% 
+  100% = 76.5957447% + 23.40425535%
   */
-  
+
   #container {
     float: left;
     margin: 0 -25.5319149% 0 0;
@@ -95,17 +97,17 @@ iframe, object, embed{
   #primary,
   #secondary {
     overflow: hidden;
-    width: 23.40425535% /* 200px / 940px */ 
+    width: 23.40425535% /* 200px / 940px */
   }
-  
+
   #site-title, #site-info {
     width:74.4680851% /* 700px / 940px */
   }
-  
+
   #footer-widget-area .widget-area,
   #site-generator,
   #site-description  {
-    width: 23.40425535% /* 200px / 940px */ 
+    width: 23.40425535% /* 200px / 940px */
   }
 
 }
@@ -117,7 +119,7 @@ iframe, object, embed{
     width: 90%;
     padding: 0 3%;
   }
-  
+
   #access,
   #access .menu-header,
   div.menu,
@@ -128,7 +130,7 @@ iframe, object, embed{
     margin: 0 auto;
     width: 100%;
   }
-  
+
   #branding  {
     overflow:hidden;
   }
@@ -142,34 +144,34 @@ iframe, object, embed{
     width: 100%;
     overflow: auto;
   }
-  
+
   #content {
     width: 93%;
     margin: 0 0px 0 0px;
   }
 
   .alignleft, img.alignleft, #content img.alignleft, .alignright, img.alignright, #content img.alignright {
-	clear: both;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     float: none;
   }
-  
+
   #primary,
   #secondary {
     float: left;
     overflow: hidden;
-    width: 99%; 
+    width: 99%;
   }
   #secondary {
     clear: left;
   }
 
   #site-generator, #site-description, #site-info, #site-title {
-	clear: left;
+    clear: left;
     float: left;
-	width: 95%;
+    width: 95%;
     padding: 0;
     margin: 0;
   }

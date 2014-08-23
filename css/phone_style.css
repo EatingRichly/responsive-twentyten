@@ -9,7 +9,7 @@
     width: 400px;
     overflow: auto;
   }
-  
+
   #access,
   #access .menu-header,
   div.menu,
@@ -20,11 +20,11 @@
     margin: 0 auto;
     width: 100%;
   }
-  
+
   #branding  {
     overflow:hidden;
   }
-  
+
   #site-title,
   #site-info,
   #site-description,
@@ -37,7 +37,7 @@
     margin-bottom: 0;
     padding-bottom:0;
   }
-  
+
 
   #container {
     float: left;
@@ -50,10 +50,10 @@
   }
 
   .alignleft, img.alignleft, .alignright, img.alignright {
-	clear: both;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     float: none;
   }
 
@@ -62,8 +62,8 @@
     clear: both;
     float: left;
     overflow: hidden;
-    width: 99%; 
-	}
+    width: 99%;
+    }
 }
 
 
@@ -74,7 +74,7 @@
     width: 300px;
     overflow: auto;
   }
-  
+
   #access,
   #access .menu-header,
   div.menu,
@@ -85,11 +85,11 @@
     margin: 0 auto;
     width: 100%;
   }
-  
+
   #branding  {
     overflow:hidden;
   }
-  
+
   #site-title,
   #site-description,
   #site-info,
@@ -102,7 +102,7 @@
     margin-bottom: 0;
     padding-bottom:0;
   }
-  
+
 
   #container {
     float: left;
@@ -115,10 +115,10 @@
   }
 
   .alignleft, img.alignleft, .alignright, img.alignright {
-	clear: both;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     float: none;
   }
 
@@ -127,7 +127,7 @@
     clear: both;
     float: left;
     overflow: hidden;
-    width: 99%; 
-	}
+    width: 99%;
+    }
 }
 

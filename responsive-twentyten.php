@@ -18,7 +18,7 @@
 */
 
 /*
-Plugin Name: Responsive TwentyTen
+Plugin Name: Responsive TwentyTen Wormeyman
 Plugin URI: http://gingerbreaddesign.co.uk/wordpress/responsive-twentyten/
 Description: Makes your TwentyTen themed site have a responsive and fluid layout. Making it ideal for for viewing across a whole range of devices and screen sizes (i.e iPhones, Android, iPads)
 Author: Todd Halfpenny
@@ -30,7 +30,7 @@ Author URI: http://gingerbreaddesign.co.uk/todd
 function rtt_add_css_and_js() {
   echo '<link rel="stylesheet" href="' . get_bloginfo('wpurl') .'/wp-content/plugins/responsive-twentyten/css/style.css" media="screen and (min-device-width: 481px)" type="text/css" />
     <link type="text/css" rel="stylesheet" media="only screen and (max-device-width: 480px)" href="' . get_bloginfo('wpurl') .'/wp-content/plugins/responsive-twentyten/css/phone_style.css" />
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, 
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0,
  maximum-scale=1.0">';
 }
 

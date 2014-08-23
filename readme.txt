@@ -1,9 +1,9 @@
-=== Responsive TwentyTen ===
+=== Responsive TwentyTen Wormeyman ===
 Contributors: toddhalfpenny
 Donate link: http://gingerbreaddesign.co.uk/wordpress/plugins/plugins.php
 Tags: css, twentyten, responsive
 Requires at least: 2.8
-Tested up to: 3.1
+Tested up to: 3.9.2
 Stable tag: 0.0.3
 
 Makes your TwentyTen themed site have a responsive and fluid layout
@@ -25,7 +25,7 @@ Uses CSS and media queries to enable the fluidity and responsiveness.
 
 == Frequently Asked Questions ==
 
-= Why is this not a child theme = 
+= Why is this not a child theme =
 
 The WordPress.org theme repository doesn't support the submission of child themes yet. This is meant to be on it's way some time soon... but in the meantime a similar result can be gotten with this plugin.
 
@@ -41,20 +41,20 @@ The WordPress.org theme repository doesn't support the submission of child theme
 
 == Changelog ==
 
-= 0.0.3 = 
+= 0.0.3 =
 
  * Fix for image scaling to keep ratio instead of squashing.
- 
- 
-= 0.0.2 = 
+
+
+= 0.0.2 =
 
  * Images centered now when screen size gets small
- 
- * Images with captions also now re-sized
- 
- 
 
-= 0.0.1 = 
+ * Images with captions also now re-sized
+
+
+
+= 0.0.1 =
 
 First Release.
 
